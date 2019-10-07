@@ -12,10 +12,10 @@ public class SpringMain {
 	{
 //creating the object of Spring Ioc Container
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("greetings.xml");
-		Greeting g = ctx.getBean("anniversary", Greeting.class);
-		System.out.println(g.Greet());
+		Greeting g = ctx.getBean("festival", Greeting.class);
+		//System.out.println(g.Greet());
 		Greeting g1 = ctx.getBean("festival", Greeting.class);
-		System.out.println(g1.Greet());
+		//System.out.println(g1.Greet());
 	}
 
 }
