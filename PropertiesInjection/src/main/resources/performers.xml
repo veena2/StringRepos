@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd ">
+
+<bean id="Neil" class="com.zensar.spring.performers.Instrumentalist">
+<property name="instrumentsSongProps">
+<props>
+<prop key="guitar"> my my </prop>
+<prop key="piano"> Let me down slowly </prop>
+<prop key="drum"> Wildest Dreams </prop>
+
+</props>
+
+
+</property>
+</bean>
+
+
+</beans>
